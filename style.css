@@ -1,0 +1,104 @@
+
+body {
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.layout-center-wrapper {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+header{
+	
+	/*position: relative;*/
+	/*  -webkit-transition:  background-image 3s ease-in-out;
+    -moz-transition:  background-image 3s ease-in-out;
+    -ms-transition:  background-image 3s ease-in-out;
+    -o-transition:  background-image 3s ease-in-out;*/
+    transition:  background-image 3s ease-in-out;
+    background-image: url("image/bkgrn_chestnut_grey.png");
+  	height: 100%;
+    width: 100%;
+    background-position: 0 90%;
+    background-size: cover;
+
+      
+}
+
+header:hover {
+		background-image: url("image/P1090500.jpg");
+
+	}
+
+header:hover h1 {
+	color: black;
+}
+
+h1 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 4.5em;
+	text-transform: uppercase;
+	color: #FFE51F;
+}
+
+main {
+	background-color: #BED0D0;
+}
+
+footer {
+	background-color: #FFDF7C;
+}
+
+header, main, footer {
+	padding: 10em 5em;
+}
+
+ul{
+	list-style: none;
+}
+.event {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.btn {
+	color: #FFE51F;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+	border: solid 2px #FFE51F;
+	border-radius: 100%;
+	width: 8.5em;
+	height: 5.5em;
+	padding-top: 3em;
+}
+
+header:hover .btn {
+	color: #D34F43;
+	border: solid 2px #D34F43;
+
+}
+
+
+a.btn:hover  {
+	color: white;
+	border: solid 2px white;
+	box-shadow: 
+
+}
+
+.event-date {
+	font-size: 1.2em;
+	color: white;
+}
+
+.event-date a {
+	color: white;
+}
