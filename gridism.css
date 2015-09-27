@@ -443,7 +443,7 @@ h3:after {
   background-size: 100%;
 }
 
-.member {margin-top: 10px;}
+/*.member {margin-top: 10px;}*/
 
 footer{
   background-color: #7c7b7b;
@@ -543,8 +543,6 @@ footer a.github { background-position: -5px -0px; width: 55px; height: 53px; }
     font-size: 1.3em;
   }
 
-  h
-
   p {
     font-size: 1em;
   }
@@ -594,6 +592,10 @@ footer a.github { background-position: -5px -0px; width: 55px; height: 53px; }
 }
 
  .menu p.title:after {
+  display: none;
+}
+
+h3:after {
   display: none;
 }
 
