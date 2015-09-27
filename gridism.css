@@ -16,90 +16,9 @@ header {
  /* background-color: rgba(0,0,0,0.0 5);*/
 }
 
-form {
-  /*background: #66dcd4;
-  background-size: 200%;*/
-  /*border: 4px solid white;*/
-  padding: 25px 25px 25px 0;
-  text-align: center;
-}
-
-input {
-  width: 90%;
-  margin: 15px 0;
-  padding: 10px;
-}
-
-
-/*
-input[type="text"],
-input[type="email"],
-input[type="submit"],
-label
- {
-  font-family: 'Play', sans-serif;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-
-input[type="text"],
-input[type="email"]{
-color: #c4c4c4;
-}
-
-label {
-  color: #105752;
-  cursor: pointer;
-}
-
-input[type=radio] {
-    display: none;
-}
-
-.radio label:before {
-    border-radius: 8px;
-}
-*/
-/*
-input:checked + label {
-    color: #eb4e83;
-} */
-
-/*input[type=radio] + label:before {
-  content: "";  
-    display: inline-block;  
-    width: 15px;  
-    height: 15px;  
-    vertical-align:middle;
-    margin-right: 8px;  
-    background-color:white;  
-    
-    border-radius: 8px;  
- 
-}
-
-input[type=radio]:checked + label:before {
-    content: ""; /
-    color:#eb4e83;
-    background-color: #eb4e83; 
-    font-size:1.2em;
-    text-align:center;
-
-   
-}
-
-
-input[type="submit"] {
-  background-color: #eb4e83;
-  border-radius: 0;
-  color: white;
-  border: none;
-}*/
-
 a p {
   border-bottom: 1px dotted  #707070;
 }
-
 
 /*
  * Gridism
@@ -212,6 +131,7 @@ h2 a {
   text-decoration: none;
   border-bottom: 1px dotted white;
   color: white;
+  cursor: pointer;
 }
 
 h2 a:hover {
@@ -226,6 +146,7 @@ color: #c80364;
 h1, h2, h3, h4, h5, .subtitle, .title {
     text-align: left;
     font-family: 'Play', sans-serif;
+
 }
 
 h1, h2, h3, h4 {
@@ -307,10 +228,12 @@ p {
     color: #707070;
 }
 
-p.big,
-.about p.half.big {
+p.big {
   font-size: 165%;
 }
+
+
+
 
 .about a{
   color: #707070;
@@ -335,7 +258,7 @@ p.big,
   padding-right: 0;
 }
 
-.about p.half {
+.about p.small {
   font-size: 1.2em;
 }
 
@@ -419,7 +342,7 @@ padding-bottom: 80px;
   vertical-align: middle;
  }
 
-.btn.join-us {
+.join-us {
    float:right;
 }
 
@@ -503,6 +426,7 @@ h4.small {
 
 h5.small {
   font-size: 1.1em;
+  padding-left: 0;
 }
 h3:after {
   display:inline-block;
@@ -519,6 +443,8 @@ h3:after {
   background-size: 100%;
 }
 
+.member {margin-top: 10px;}
+
 footer{
   background-color: #7c7b7b;
   padding: 0px 0;
@@ -532,7 +458,10 @@ footer  .grid h5 {
 
 footer a.github,
 footer a.github:hover
-{ display: inline-block; background: url('image/sprite_github.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+{ display: inline-block;
+ background: url('image/sprite_github.png') no-repeat;
+  overflow: hidden; text-indent: -9999px;
+   text-align: left; }
 
 footer a.github:hover { background-position: -5px -58px; width: 55px; height: 53px; }
 
@@ -556,8 +485,8 @@ footer a.github { background-position: -5px -0px; width: 55px; height: 53px; }
   /* Stack anything that isn’t full-width on smaller screens */
   .grid .unit {
     width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .unit .grid .unit {
     padding-left: 0px;
@@ -571,8 +500,104 @@ footer a.github { background-position: -5px -0px; width: 55px; height: 53px; }
   .hide-on-mobiles {
     display: none !important;
   }
+
+ /* .about .half:first-child {
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
+
+.about .one-third:first-child {
+  padding-left: 20px;
+}
+
+.about .one-third:last-child {
+  padding-right: 20px;
+}*/
+
+  h1 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  header {
+    background-size:550%;
+    padding-bottom: 100px;
+
+  }
+
+  h5.lang {
+    font-size: 0.8em;
+  }
+
+  .join-us {
+    float:none;
+    margin: 5px;
+  }
+
+  .btn {
+    font-size: 1em;
+   }
+
+  h2, h3, h4, h5 {
+    font-size: 1.3em;
+  }
+
+  h
+
+  p {
+    font-size: 1em;
+  }
+
+  #polygon:after,
+  #polygon:before {
+    display: none;
+  }
+
+  #polygon {
+    margin: 0;
+  }
+
+
+  #map {
+    background: none;
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  p.big, p {
+    font-size: 1em;
+  }
+
+  .menu {
+    background-size: auto;
+    padding: 0;
+  }
+
+ p.subtitle {
+    font-size: 1em;
+  }
+
+
+  .align-center { text-align: center; }
+.align-left   { text-align: center; }
+.align-right  { text-align: center; }
+.pull-left    { float: center; }
+.pull-right   { float: center; }
+
+.title,
+.item p {
+  margin: 0px;
+  padding: 5px;
+}
+
+ .menu p.title:after {
+  display: none;
+}
+
+}
 /*h1 {
   font-size: 3em;
 }
