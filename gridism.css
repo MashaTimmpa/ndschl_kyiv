@@ -328,8 +328,8 @@ padding-bottom: 80px;
 { display: inline-block; background: url('image/sprite_icos.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
  
 .ico-everybody { background-position: -5px -0px; width: 64px; height: 65px; }
-.self-edu { background-position: -5px -70px; width: 64px; height: 64px; }
-.ico-programming { background-position: -5px -139px; width: 62px; height: 63px; }
+.ico-programming { background-position: -5px -70px; width: 62px; height: 63px;  }
+.self-edu {background-position: -5px -138px; width: 59px; height: 65px;  }
 
 .btn {
  
@@ -396,7 +396,7 @@ z-index: 2000;
   content:"";
   position: absolute; 
   left: 157%;
-  top: 66%;
+  top: 69%;
   border-radius: 100%;
   width: 20px;
   height: 20px;
